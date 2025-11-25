@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony Valley Academy Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">🏫 Harmony Valley Academy</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#contact">Contact</a></li> </ul>
+        </nav>
+    </header>
+
+    <section class="hero-slideshow">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="https://picsum.photos/1200/500?random=1" alt="Students engaging in a classroom discussion.">
+                <div class="slide-caption">Learning in Harmony</div> </div>
+            <div class="slide fade">
+                <img src="https://picsum.photos/1200/500?random=2" alt="Bright and spacious school library.">
+                <div class="slide-caption">Explore Our Programs</div> </div>
+             <div class="slide fade">
+                <img src="https://picsum.photos/1200/500?random=3" alt="Children playing happily in the school yard.">
+                <div class="slide-caption">Join the Academy</div> </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a> <a class="next" onclick="plusSlides(1)">❯</a> </div>
+        <div style="text-align:center" class="dot-navigation">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </section>
+
+    <main class="container">
+        
+        <h2>Quick Links & Features</h2>
+        <section class="feature-boxes">
+            <div class="content-box">
+                <h3>Upcoming Events</h3>
+                <p>Check the calendar for PTA meetings, sports days, and school holidays.</p>
+                <a href="#">View Calendar →</a>
+            </div>
+            <div class="content-box">
+                <h3>Admissions Open</h3>
+                <p>Information on applications, requirements, and deadlines for new students.</p>
+                <a href="#">Apply Now →</a>
+            </div>
+            <div class="content-box">
+                <h3>Principal's Message</h3>
+                <p>Read the latest update from our Principal on school values and achievements.</p>
+                <a href="#">Read More →</a>
+            </div>
+        </section>
+
+        <hr>
+        
+        <section id="news">
+            <h2>Latest Academy News</h2>
+            <div class="sub-slideshow-grid">
+                <div class="sub-slideshow-item">
+                    <img src="https://picsum.photos/400/250?random=9" alt="Students planting trees for a community project.">
+                    <h4>Green Initiative Launch</h4>
+                    <p>Our students partnered with the city council to launch a major tree-planting campaign in the local park.</p>
+                </div>
+                <div class="sub-slideshow-item">
+                    <img src="https://picsum.photos/400/250?random=10" alt="Robotics team showing off their winning robot.">
+                    <h4>Robotics Team Wins State Title</h4>
+                    <p>The HVA Robotics team clinched the gold medal at the State STEM competition this past weekend!</p>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <a href="#news" class="button-link primary" style="margin-top: 25px;">View All News & Events →</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="about-us">
+            <h2>About Harmony Valley Academy</h2> <p>Our school is committed to fostering a supportive and engaging environment where every student can achieve their full potential. We believe in holistic education that balances academic rigor with character development and community involvement.</p>
+            <div class="sub-content">
+                <p>We boast a **low student-to-teacher ratio**, ensuring personalized attention, and a rich history of serving the local community for over 50 years.</p>
+                <a href="#" class="button-link">Meet Our Staff</a>
+            </div>
+        </section>
+        
+        <hr>
+
+        <section id="student-life">
+            <h2>Student Life & Extracurriculars</h2>
+            <div class="sub-slideshow-grid">
+                
+                <div class="sub-slideshow-item">
+                    <img src="https://picsum.photos/400/250?random=4" alt="School sports team celebrating a victory.">
+                    <h4>Athletics</h4>
+                    <p>Learn about our competitive sports programs, from soccer to track and field.</p>
+                </div>
+
+                <div class="sub-slideshow-item">
+                    <img src="https://picsum.photos/400/250?random=5" alt="Students performing on stage in a drama club production.">
+                    <h4>Arts & Drama</h4>
+                    <p>Opportunities in music, theater, and visual arts to unleash creative potential.</p>
+                </div>
+
+                <div class="sub-slideshow-item">
+                    <img src="https://picsum.photos/400/250?random=6" alt="A group of students working on a science project.">
+                    <h4>Clubs & Societies</h4>
+                    <p>Join the Science Club, Debate Team, or Community Service organization.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="admissions">
+            <h2>Admissions Information</h2>
+            <p>We welcome applications from families within our community. The admission process is designed to be simple and transparent.</p>
+            <ul class="process-list">
+                <li>**Step 1:** Review requirements and download the application package.</li>
+                <li>**Step 2:** Schedule a mandatory campus tour and information session.</li>
+                <li>**Step 3:** Submit the completed application before the **January 31st deadline**.</li>
+            </ul>
+            <a href="#" class="button-link primary">Download Application Package</a>
+        </section>
+
+        <hr>
+
+        <section id="programs">
+            <h2>Academic Programs</h2>
+            <p>We offer a robust curriculum across all grade levels, tailored to modern academic standards.</p>
+            <div class="program-cards">
+                <div class="program-card">
+                    <img src="https://picsum.photos/300/200?random=7" alt="Elementary students reading books.">
+                    <h4>Elementary School (K-5)</h4>
+                    <p>Focus on foundational literacy, numeracy, and collaborative learning skills.</p>
+                </div>
+                <div class="program-card">
+                    <img src="https://picsum.photos/300/200?random=8" alt="High school students using computers in a lab.">
+                    <h4>Middle & High School (6-12)</h4>
+                    <p>Advanced placement courses, specialized science labs, and career readiness tracks.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact & Location</h2>
+            <div class="sub-slideshow-grid">
+                <div class="content-box">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> info@harmonyvalleyacademy.edu</p> <p>Office hours: M-F, 8:00 AM - 4:00 PM</p>
+                </div>
+                <div class="content-box">
+                    <h3>Visit Our Campus</h3>
+                    <p>123 Schoolhouse Lane, Anytown, CA 90210</p>
+                    <a href="https://www.google.com/maps" target="_blank" class="button-link primary">Get Directions →</a>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="main-footer">
+        <p>© 2025 Harmony Valley Academy. All rights reserved.</p> </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
